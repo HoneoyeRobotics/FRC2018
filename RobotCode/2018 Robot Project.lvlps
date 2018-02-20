@@ -1,5 +1,9 @@
 [ProjectWindow_Data]
+<<<<<<< HEAD
 ProjectExplorer.ClassicPosition[String] = "125,1129,658,1646"
+=======
+ProjectExplorer.ClassicPosition[String] = "49,228,582,745"
+>>>>>>> ef2e15185d8bf737627ece2f51ae93bd47edaea2
 
 [AB_Cache_{6BC1E157-A392-44E8-8AE4-9903655151A6}]
 Cache_Path[Path] Line0001 = "/C/Users/suits/AppData/Local/Temp/AB_Cache_{6BC1E1"
