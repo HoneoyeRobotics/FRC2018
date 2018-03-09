@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
-	<Property Name="CCSymbols" Type="Str">robot_simulation,off;</Property>
+	<Property Name="CCSymbols" Type="Str">robot_simulation,towertest;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -785,12 +785,6 @@ AddOutputFilter chunkFilter
 			<Item Name="CTRE_Phoenix_MotorControl_NeutralMode.ctl" Type="VI" URL="../../Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_NeutralMode.ctl"/>
 			<Item Name="CTRE_Phoenix_MotorControl_SetNeutralMode.vi" Type="VI" URL="../../Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_SetNeutralMode.vi"/>
 			<Item Name="CTRE_Phoenix_MotorControl_GetDevRefData.vi" Type="VI" URL="../../Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_GetDevRefData.vi"/>
-			<Item Name="CTRE_Phoenix_MotorControl_ControlMode.ctl" Type="VI" URL="/../../Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_ControlMode.ctl"/>
-			<Item Name="CTRE_Phoenix_VictorSPX_Open.vi" Type="VI" URL="/../../Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Victor SPX/CTRE_Phoenix_VictorSPX_Open.vi"/>
-			<Item Name="CTRE_Phoenix_MotorControl_Follow.vi" Type="VI" URL="/../../Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_Follow.vi"/>
-			<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi" Type="VI" URL="/../../Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi"/>
-			<Item Name="CTRE_Phoenix_MotorControl_Set.vi" Type="VI" URL="/../../Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_Set.vi"/>
-			<Item Name="CTRE_Phoenix_TalonSRX_Open.vi" Type="VI" URL="/../../Public/Documents/Cross The Road Electronics/Phoenix-LabVIEW/Talon SRX/CTRE_Phoenix_TalonSRX_Open.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -809,7 +803,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2136F65-FD06-4AC9-A317-10E44B9EF7A4}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
